@@ -10,11 +10,11 @@ body {
 
 }
 
-.header-body{
+.header-body {
     padding: 200px 0 100px 800px;
     text-align: right;
     width: 30%;
-    
+
 }
 
 .header-title {
@@ -41,42 +41,65 @@ body {
 
 /* second */
 
-.second-part{
+.second-part {
     margin-top: 130px;
     display: flex;
     gap: 130px;
 }
 
-.second-photo{
-    padding-left: 150px; 
+.second-photo {
+    padding-left: 150px;
 }
 
-.second-body{
+.second-body {
     padding: 200px 200px 0 0;
 }
 
-.second-title{
+.second-title {
     width: 288px;
 }
 
-.second-desc{
+.second-desc {
     width: 416px;
 }
 
-.second-body  li{
-list-style: "✔ " ;
+.second-body li {
+    list-style: "✔ ";
 
 }
 
 /* plans */
 
-.text-align{
+.text-align {
     text-align: center;
 }
 
-.plans{
+.plans {
     display: flex;
     justify-content: center;
     gap: 150px;
 }
 
+.plan h4,
+p {
+    margin: 6px 0 !important;
+}
+
+.watch-image {
+    background-image: url("./images/watch.png");
+    background-repeat: no-repeat;
+    background-position: left right, left top;
+    height: 500px;
+    margin: 150px 150px;
+    padding: 50px 60px;
+}
+
+.btn {
+    width: 160px;
+    height: 64px;
+    background: #FFF;
+    border: 0;
+    color: #F15B22;
+    font-size: 20px;
+    border-radius: 5px;
+}
