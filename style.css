@@ -52,7 +52,7 @@ body {
 }
 
 .second-body{
-    padding: 200px 320px 0 0;
+    padding: 200px 200px 0 0;
 }
 
 .second-title{
@@ -66,5 +66,17 @@ body {
 .second-body  li{
 list-style: "✔ " ;
 
+}
+
+/* plans */
+
+.text-align{
+    text-align: center;
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
 }
 
