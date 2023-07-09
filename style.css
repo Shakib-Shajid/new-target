@@ -1,0 +1,70 @@
+body {
+    font-family: Work Sans;
+}
+
+.header {
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    background-image: url("./images/banner/banner1.png");
+    background-size: cover;
+
+}
+
+.header-body{
+    padding: 200px 0 100px 800px;
+    text-align: right;
+    width: 30%;
+    
+}
+
+.header-title {
+    color: #151414;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.header-desc {
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+}
+
+/* second */
+
+.second-part{
+    margin-top: 130px;
+    display: flex;
+    gap: 130px;
+}
+
+.second-photo{
+    padding-left: 150px; 
+}
+
+.second-body{
+    padding: 200px 320px 0 0;
+}
+
+.second-title{
+    width: 288px;
+}
+
+.second-desc{
+    width: 416px;
+}
+
+.second-body  li{
+list-style: "✔ " ;
+
+}
+
