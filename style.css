@@ -80,10 +80,7 @@ body {
     gap: 150px;
 }
 
-.plan h4,
-p {
-    margin: 6px 0 !important;
-}
+
 
 .watch-image {
     background-image: url("./images/watch.png");
@@ -107,5 +104,33 @@ p {
 /* footer */
 
 .footer-section {
+    background-color: #151414;
+    color: white;
     display: flex;
+    gap: 100px;
+    /* height: 300px; */
+    /* width: 40%; */
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.footer-desc {
+    margin-bottom: 24px;
+}
+
+.footer-part {
+    padding: 100px 200px;
+}
+
+.links a {
+    margin: 10px;
+}
+
+.footer-email {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+
 }
